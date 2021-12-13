@@ -51,7 +51,7 @@ section.row {
 
 .workspace {
   background-color: #fafafa;
-  width: 80%;
+  flex: auto 1 1;
   padding: 0;
 }
 
