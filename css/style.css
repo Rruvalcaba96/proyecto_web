@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #4d0099;
+}
+
+.row,
+.column {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  flex-flow: row;
+}
+
+.column {
+  flex-flow: column;
+}
+
+.toolbar {
+  align-items: center;
+  height: 8vh;
+  background-color: var(--primary-color);
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+  width: 90px;
+  object-fit: scale-down;
+}
+
+.navbar {
+  height: 7vh;
+  background-color: black;
+}
+
+section.row {
+  height: 85vh;
+  width: 100vw;
+}
+
+.workspace {
+  background-color: #fafafa;
+  width: 80%;
+  padding: 0;
+}
+
+.footer {
+  height: 5vh;
+  background-color: black;
+  margin-top: auto;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.session {
+  width: 90%;
+  height: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0 auto 0;
+}
